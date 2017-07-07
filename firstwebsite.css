@@ -1,0 +1,581 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Raleway', 'sans-serif';
+	overflow-y: scroll;
+	overflow-x: none;
+}
+
+
+p {
+	font-size: 14px;
+	text-transform: capitalize;
+	
+	
+}
+/* Header */
+.logobrand{
+  width: 25px;
+  height: 25px;
+}
+
+.header{
+	background-image: url("http://wallpapercave.com/wp/k15SYSI.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+/*   background-position: 50% 50%; */
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;	
+}
+
+.header-apple img{
+  position: relative;
+  width: 100%;
+  height: 150%;
+  -webkit-translate: all 1s ;
+  -moz-translate: all 1s ;
+  -ms-translate: all 1s ;
+  -o-translate: all 1s ;
+  translate: all 1s ;
+}
+
+.header-apple img:hover{
+/*   box-shadow: 1px 0px 0px 1px gray; */
+  transform: translateY(-30px);
+}
+
+/*====Nav Bar=====*/
+.navbar{
+  margin-top: -100px;
+}
+
+.navbar-default{
+	background-color: transparent;
+	border-color: #444;
+	z-index: 110;
+	-webkit-transition: all 1s ;
+	-moz-transition: all 1s ;
+	-ms-transition: all 1s ;
+	-o-transition: all 1s ;
+	transition: all 1s ;
+}
+.nvabar-default .navbar-nav > li > a {
+	color: #B5B5B5;
+	font-family: "Raleway", sans-serif;
+	-webkit-transition: all 1s ;
+	-moz-transition: all 1s ;
+	-ms-transition: all 1s ;
+	-o-transition: all 1s ;
+	transition: all 1s ;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #129CF3;
+}
+.navbar-default .navbar-nav > li > a:focus{
+	/*color: #B5B5B5;*/
+	color: skyblue;
+}
+
+.navbar-brand {
+	padding: 9px 15px;
+}
+
+.navbar-brand img {
+	-webkit-transition: all 1s ;
+	-moz-transition: all 1s ;
+	-ms-transition: all 1s ;
+	-o-transition: all 1s ;
+	transition: all 1s ;
+}
+
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+	background-color: transparent;
+	color: #129CF3;
+}
+
+/* Generic CSS*/
+.section-title{
+	padding-top: 90px;
+	padding-bottom: 50px;
+}
+.section-title h2{
+	text-align: center;
+	position: relative;
+	color: #333;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.section-title h2:after {
+	content: "";
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	width: 60px;
+	height: 2px;
+	background-color: #129CF3;
+	margin-left: -30px;
+}
+
+.section-title p{
+	color: #333;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 45px;
+}
+
+.header-overlay{
+ background-color: rgba(31, 31, 31, 0.55);
+	
+}
+
+.header-cross img{
+	width: 100%;
+
+}
+
+.logo img{
+	position:relative;
+	/*top:20px;*/
+	margin-top: 20px;
+	width: 200px;
+	height: 100px;
+	/*box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);*/
+  	/*transform: translateY(-16px);*/
+    -webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+}
+
+.logo img:hover{
+	/*position: relative;
+	z-index: -1;*/
+	transform: translateY(-16px);
+}
+
+.logo{
+	padding-bottom: 50px;
+}
+
+.header-text{
+	color: white;
+}
+
+.header-text h1{
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 45px;
+	padding-top: 30px;
+	/*box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);*/
+  	/*transform: translateY(-16px);*/
+  	display:inline-block;
+}
+
+h1 span{
+	color: skyblue;
+	font-size: 45px;
+	transition: all 0.7s;
+
+}
+
+h1:hover span{
+	color: red;
+	font-size: 77px;
+	/*transform: translateX(360deg);*/
+}
+
+.header-text p{
+	color: skyblue;
+	font-size: 17px;
+	line-height: 28px;
+	font-weight: 300;
+	/*box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);*/
+  	/*transform: translateY(-16px);*/
+  	display:inline-block;
+}
+
+.header-btns{
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+ {
+	border-color:#129CF3;
+	border-radius: 5px;
+	background: transparent;
+	padding: 10px 30px;
+	font-size: 19px;
+	text-transform: uppercase;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+}
+
+.btn-download:hover {
+	background-color: #129CF3;
+	color:white;
+  	transform: translateY(-16px);
+}
+
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited
+{
+	color: #A9ADB0;
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-size: 19px;
+	font-weight: 500;
+	padding-top: 20px;
+	background: transparent;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+}
+
+.btn-tour:hover {
+	background-color: white;
+	color:#129CF3;
+  	transform: translateY(-16px);
+  	display: inline-block;
+  	padding: 10px 20px;
+}
+.fa-angle-down{
+	color: #129CF3;
+}
+
+/* About US */
+
+.choose-us-wrapper{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.about-blessing img{
+	padding-top: 50px;
+	padding-right: 50px;
+	width: 100%
+}
+.fa-bolt{
+	padding-left: 25px;
+}
+.choose-us-title{
+	padding-bottom: 50px;
+}
+
+.choose-us-title h2{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 49px;
+	position: relative;
+}
+.choose-us-title h2:after{
+	content: "";
+	position: absolute;
+	width: 72px;
+	height: 2px;
+	left: 0;
+	bottom: -12px;
+	background-color: #129CF3;
+}
+
+.choose-us-title p{
+	margin-top: 40px;
+	font-size: 19px;
+	line-height: 31px;
+}
+
+.choose-us-item{
+	position: relative;
+	padding-left: 80px;
+	padding-bottom: 4px;
+}
+.choose-us-item div {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.choose-us-item div i{
+	/*text-shadow: 10px, -10px, 10px, 1px;*/
+	font-size: 55px;
+	color: #129CF3;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+}
+
+.choose-us-item h3{
+	color: #343434;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.choose-us-item p{
+	color: #727272;
+	font-size: 15px;
+
+}
+
+
+/*===========Testimonial================ */
+
+.testimonial{
+	background-image: url("http://eskipaper.com/images/space-background-pictures-1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+/*   background-position: 50% 50%; */
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;	
+}
+
+.testimonial-overlay{
+	background-color: rgba(31, 31, 31, 0.55);
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+}
+
+.testimonial-caption{
+	padding-bottom: 70px;
+}
+
+.testimonial-caption h3{
+	color: #129CF3;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 30px;
+	margin-top: 25px;
+}
+
+.testimonial-caption h4{
+	color: #129CF3;
+}
+
+.testimonial-caption h4 span{
+	color:#D8D8D8;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.testimonial-caption p{
+	color:#D8D8D8;
+	font-size: 18px;
+	line-height: 27px;
+	padding-top: 50px;
+}	 
+
+/*======Carousal========*/
+
+.carousel-indicators{
+	bottom: -30px;
+
+}
+
+.carousel-inner .item img{
+	border: 2px solid #129CF3;
+	/*== clockwise changes or 50% 50% will do the same job*/
+	border-radius: 50% 50% 50% 50%; 
+	padding: 5px;
+}
+
+
+
+
+/*=======Features=========*/
+
+.features-inner-wrapper{
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+.left-feature-item{
+	position: relative;
+	padding-right: 90px;
+	margin-bottom: 65px;
+	text-align: right;
+	margin-top: 35px;
+}
+.left-feature-item-icon{
+	position: absolute;
+	top: -15px;
+	right: 30px;
+	color: skyblue;
+	font-size: 40px;
+	/*width: 90px;*/
+	/*height: 90px;*/
+	/*text-align: center;*/
+}
+
+.left-feature-item h3{
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 21px;
+	color: #333;
+}
+.left-feature-item p{
+	color: #333;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 26px;
+}
+
+.feature-img{
+	width: 100%;
+	padding-top: 110px;
+}
+
+.right-feature-item{
+	position: relative;
+	padding-left: 90px;
+	margin-bottom: 65px;
+	text-align: left;
+	margin-top: 35px;
+}
+.right-feature-item-icon{
+	position: absolute;
+	top: -15px;
+	left: 25px;
+	color: skyblue;
+	font-size: 40px;
+	/*width: 90px;*/
+	/*height: 90px;*/
+	/*text-align: center;*/
+}
+
+.right-feature-item h3{
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 21px;
+	color: #333;
+}
+.right-feature-item p{
+	color: #333;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 26px;
+}
+
+/*=====Purchase======*/
+
+.purchase-now{
+	background: #1a1a1a;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+.purchase-now p{
+	color: #dfdfdf;
+	font-size: 18px;
+	font-weight: 300;
+}
+.btn-purchase-now,
+.btn-purchase-now:active,
+.btn-purchase-now:focus,
+.btn-purchase-now:visited 
+{
+	background-color: #129CF3;
+	border: 1px solid #129CF3;
+	color: #fff;
+	border-radius: 3px;
+	padding: 15px 35px;
+	text-transform: uppercase;
+	/*transform: rotateY(0deg);*/
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+}
+/*.purchase-now:hover */.btn-purchase-now:hover{
+	background-color: #1274B1;
+	border-color: #316B90;
+	transform: translateY(-10px);
+	box-shadow: 2px 5px 10px 1px #316B90;
+	/*background-color: white;
+	border: 1px solid white;
+	transform: rotateY(360deg);
+	pointer-events: none;
+	color: #129CF3;*/
+}
+/*.newbtn{
+	background-color: white;
+	border: 1px solid white;
+	transform: rotateY(360deg);
+	pointer-events: none;
+	color: #129CF3;
+	z-index: 0;
+}*/
+
+.counters{
+	background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/0xPgM5l/elegant-blue-motion-background-animation-looped_7jtp8mml__S0000.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-position: center;
+/* 	background-position: 50% 50%; */
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+}
+
+.counters-overlay{
+	background-color: rgba(31, 31, 31, 0.55);
+}
+
+.counter-item{
+	margin: 150px auto;
+}
+
+.counter-item div i{
+	color: #129CF3;
+	font-size: 60px;
+}
+
+.counter-item h2{
+	color: white;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.counter-item p{
+	color: #D7DADB;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: uppercase;	
+}
+
+/* Screens  */
+
+.bx-wrapper{
+  border: none;
+  box-shadow: none;
+}
+
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/mechanics/mec-3/mec288.cur), progress !important;} /* End http://www.cursors-4u.com */
